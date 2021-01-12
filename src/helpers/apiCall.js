@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Cookies } from 'react-cookie';
 
 const instance = axios.create({
-  baseURL: 'https://nhanviet.azurewebsites.net/api/',
+  baseURL: 'https://localhost:5001//api/',
 });
 
 instance.interceptors.request.use(
